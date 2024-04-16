@@ -95,6 +95,10 @@ section > ul > li {
     margin-left: 1.5rem; 
 }
 
+section > ul > li::marker {
+    color: #7b284f;
+}
+
 section > ul > li > p {
     padding: 0.2rem;
     margin: 0.8rem 0;
@@ -106,6 +110,11 @@ section > ol > li {
     font-weight: 250;
     font-size: 14px;
     margin-left: 1.5rem; 
+}
+
+section > ol > li::marker {
+    color: #854632;
+    font-weight: bold;
 }
 
 section > ol > li > p {
@@ -124,7 +133,12 @@ section > ol > li > p {
     font-family: var(--font-texto);
     font-weight: 250;
     font-size: 14px;
-    margin-left: 1.5rem; 
+    margin-left: 1.5rem;
+    list-style-type: none;
+    padding: 0.2rem;
+    margin: 0.8rem 0;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
 }
 
 #nutri > p {
@@ -135,14 +149,14 @@ section > ol > li > p {
     padding: 10px 0;
 }
 
-#nutri > ul > li {
-    list-style-type: none;
-    padding: 0.2rem;
-    margin: 0.8rem 0;
-    margin-left: 0.5rem; 
-    font-size: 0.9rem;
-}
-
 #nutri > ul > li > strong {
     color: #4b0b0bec;
+}
+
+footer {
+    font-family: var(--font-texto);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 0.5rem;
 }
