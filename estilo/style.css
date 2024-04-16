@@ -8,10 +8,10 @@
 }
 
 :root {
-    --cor-principal: #f3e6d85d;
+    --cor-principal: #ffffff;
     --cor-secundaria: #854632;
     --cor-tercearia: #7b284f;
-    --cor-quartenaria: #f8d9e92a;
+    --cor-quartenaria: #f8d9e98a;
     --font-titulo: "Young Serif", serif;
     --font-texto: "Outfit", sans-serif;
 }
@@ -28,8 +28,13 @@ header > img {
 }
 
 main {
-    width: 80vw;
-    margin: 3rem;
+    width: 50vw;
+    margin: auto;
+}
+
+section {
+    width: 50vw;
+    margin: auto;
 }
 
 main > h1 {
@@ -37,6 +42,7 @@ main > h1 {
     font-weight: 400;
     text-align: center;
     text-align: justify;
+    margin-top: 2rem;
 }
 
 main > p {
@@ -49,18 +55,17 @@ main > p {
 
 article {
     background-color: var(--cor-quartenaria);
-    height: 8rem;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
-    margin: 20px;
+    margin: 15px 0;
 }
 
 article > h3 {
     font-family: var(--font-titulo);
     font-weight: 300;
     color: var(--cor-tercearia);
-    padding: 0.5rem;
-    margin-left: 0.5rem;
+    padding: 1rem 0;
+    margin-left: 1rem;
 }
 
 article > ul > li {
@@ -71,22 +76,73 @@ article > ul > li {
 }
 
 article > ul > li > p {
-    padding: 0.2rem;
-    font-size: 13px;
+    width: auto;
+    height: auto;
+    padding: 0.3em;
+    font-size: 14px;
 }
 
 section > h2 {
     font-family: var(--font-titulo);
-    color: var(--cor-secundaria);
-}
-
-section > ul > li > p {
-    padding: 0.2rem;
-    font-size: 13px;
+    color: #854632;
+    margin-top: 1rem;
 }
 
 section > ul > li {
     font-family: var(--font-texto);
     font-weight: 250;
-    margin-left: 2rem;
+    font-size: 14px;
+    margin-left: 1.5rem; 
+}
+
+section > ul > li > p {
+    padding: 0.2rem;
+    margin: 0.8rem 0;
+    font-size: 14px;
+}
+
+section > ol > li {
+    font-family: var(--font-texto);
+    font-weight: 250;
+    font-size: 14px;
+    margin-left: 1.5rem; 
+}
+
+section > ol > li > p {
+    padding: 0.2rem;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+}
+
+#nutri > h2 {
+    font-family: var(--font-titulo);
+    color: #854632;
+    margin-top: 1rem;
+}
+
+#nutri > ul > li {
+    font-family: var(--font-texto);
+    font-weight: 250;
+    font-size: 14px;
+    margin-left: 1.5rem; 
+}
+
+#nutri > p {
+    font-family: var(--font-texto);
+    font-weight: 250;
+    text-align: center;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+#nutri > ul > li {
+    list-style-type: none;
+    padding: 0.2rem;
+    margin: 0.8rem 0;
+    margin-left: 0.5rem; 
+    font-size: 0.9rem;
+}
+
+#nutri > ul > li > strong {
+    color: #4b0b0bec;
 }
