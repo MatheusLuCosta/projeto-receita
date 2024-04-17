@@ -64,7 +64,8 @@ article > h3 {
     font-family: var(--font-titulo);
     font-weight: 300;
     color: var(--cor-tercearia);
-    padding: 1rem 0;
+    padding: 1rem;
+    padding-bottom: 0;
     margin-left: 1rem;
 }
 
@@ -79,13 +80,14 @@ article > ul > li > p {
     width: auto;
     height: auto;
     padding: 0.3em;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 section > h2 {
     font-family: var(--font-titulo);
     color: #854632;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
 section > ul > li {
@@ -102,13 +104,12 @@ section > ul > li::marker {
 section > ul > li > p {
     padding: 0.2rem;
     margin: 0.8rem 0;
-    font-size: 14px;
+    font-size: 1.3rem;
 }
 
 section > ol > li {
     font-family: var(--font-texto);
     font-weight: 250;
-    font-size: 14px;
     margin-left: 1.5rem; 
 }
 
@@ -120,30 +121,31 @@ section > ol > li::marker {
 section > ol > li > p {
     padding: 0.2rem;
     margin: 0.8rem 0;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 #nutri > h2 {
     font-family: var(--font-titulo);
     color: #854632;
     margin-top: 1rem;
+    font-size: 2rem;
 }
 
 #nutri > ul > li {
     font-family: var(--font-texto);
     font-weight: 250;
-    font-size: 14px;
     margin-left: 1.5rem;
     list-style-type: none;
     padding: 0.2rem;
     margin: 0.8rem 0;
     margin-left: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 #nutri > p {
     font-family: var(--font-texto);
     font-weight: 250;
+    font-size: 1.1rem;
     text-align: center;
     text-align: justify;
     padding: 10px 0;
@@ -151,6 +153,8 @@ section > ol > li > p {
 
 #nutri > ul > li > strong {
     color: #4b0b0bec;
+    font-size: 1.1rem;
+    margin-left: 5rem;
 }
 
 footer {

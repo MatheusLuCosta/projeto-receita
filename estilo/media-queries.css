@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+/* Pesquisar Typical device Breakpoints
+pequenas telas: até 600px
+celulares: 600px até 768px
+tablet: 768px até 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {    
+    header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header > img {
+        width: 80%;
+        border-radius: 20px;
+        margin-top: 2rem;
+    }
+
+    main > h1 {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    main > p {
+        font-size: 1.3rem;
+    }
+
+    article {
+        height: 10rem;
+    }
+
+    article > h3 {
+        font-size: 1.3rem;
+        padding-bottom: 0;
+    }
+
+    article > ul > li > p {
+        font-size: 1.2rem;
+    }
+
+    section > h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    section > ul > li > p {
+        font-size: 1.3rem;
+    }
+
+    section > ol > li > p {
+        font-size: 1.1rem;
+    }
+
+    #nutri > h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    #nutri > p {
+        font-size: 1.1rem;
+    }
+
+    #nutri > ul > li {
+        font-size: 1.1rem;
+        margin-left: 2rem;
+    }
+
+    #nutri > ul > li > strong {
+        margin-left: 10rem;
+    }
+
+    footer {
+        padding: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header > img {
+        width: 75%;
+        border-radius: 20px;
+        margin-top: 2rem;
+    }
+
+    main > h1 {
+        font-size: 2.6rem;
+        font-weight: bolder;
+    }
+
+    main > p {
+        font-size: 1.6rem;
+    }
+
+    article {
+        height: 10rem;
+    }
+
+    article > h3 {
+        font-size: 1.3rem;
+        padding-bottom: 0;
+    }
+
+    article > ul > li > p {
+        font-size: 1.2rem;
+    }
+
+    section > h2 {
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+
+    section > ul > li > p {
+        font-size: 1.5rem;
+    }
+
+    section > ol > li > p {
+        font-size: 1.4rem;
+    }
+
+    #nutri > h2 {
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+
+    #nutri > p {
+        font-size: 1.7rem;
+    }
+
+    #nutri > ul > li {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    #nutri > ul > li > strong {
+        margin-left: 10rem;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header > img {
+        width: 75%;
+        border-radius: 20px;
+        margin-top: 2rem;
+    }
+
+    main > h1 {
+        font-size: 2.6rem;
+        font-weight: bolder;
+    }
+
+    main > p {
+        font-size: 1.6rem;
+    }
+
+    article {
+        height: 10rem;
+    }
+
+    article > h3 {
+        font-size: 1.3rem;
+        padding-bottom: 0;
+    }
+
+    article > ul > li > p {
+        font-size: 1.2rem;
+    }
+
+    section > h2 {
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+
+    section > ul > li > p {
+        font-size: 1.5rem;
+    }
+
+    section > ol > li > p {
+        font-size: 1.4rem;
+    }
+
+    #nutri > h2 {
+        font-size: 2.3rem;
+        font-weight: bolder;
+    }
+
+    #nutri > p {
+        font-size: 1.7rem;
+    }
+
+    #nutri > ul > li {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    #nutri > ul > li > strong {
+        margin-left: 10rem;
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding: 1.8rem;
+    }
+}
